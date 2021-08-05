@@ -23,6 +23,7 @@ const fetchStudentsHelper = (data) => {
 const subjectCodeListHelper = (data) => {
     return {
         type: "GET_SUBJECTCODE_LIST",
+        
         payload: data
     }
 }
