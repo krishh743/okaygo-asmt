@@ -30,6 +30,7 @@ const FacultyUpdateProfile = () => {
         formData.append("gender", gender)
         formData.append("facultyMobileNumber", facultyMobileNumber)
         formData.append("aadharCard", aadharCard)
+        
         formData.append("avatar", avatar)
         formData.append("email", store.faculty.faculty.faculty.email)
         setIsLoading(true)
