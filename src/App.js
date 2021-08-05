@@ -52,6 +52,7 @@ import AdminHome from './Pages/Admin/AdminHome'
  
 if (window.localStorage.facultyJwtToken) {
   setAuthToken(localStorage.facultyJwtToken);
+ 
   const decoded = jwt_decode(localStorage.facultyJwtToken);
  
   store.dispatch(setFacultyUser(decoded));
