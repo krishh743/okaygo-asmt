@@ -8,6 +8,7 @@ const StudentSubjectList = () => {
     const store = useSelector((store) => store)
     const history = useHistory()
     const dispatch = useDispatch()
+    
     useEffect(() => {
        dispatch(getAllSubjects())
     },[])
