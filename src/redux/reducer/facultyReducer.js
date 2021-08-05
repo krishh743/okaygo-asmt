@@ -9,6 +9,7 @@ const initialState = {
     flag: false,
     updateProfileFlag: false,
     allSubjectCodeList: [],
+    
     fetchedStudents: [],
     fetchedStudentsHelper: true
 }
