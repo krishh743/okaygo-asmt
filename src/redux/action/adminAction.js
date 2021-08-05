@@ -53,6 +53,7 @@ const getSubjctsHelper = (data) => {
 const adminGetAllFacultyHelper = (data) => {
     return {
         type: "GET_ALL_FACULTY",
+        
         payload: data
     }   
 }
