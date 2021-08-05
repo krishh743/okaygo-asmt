@@ -65,6 +65,7 @@ const adminReducer = (state = initialState, action) => {
             }
         }
         case "GET_ALL_STUDENT": {
+            
             return {
                 ...state,
                 allStudent: action.payload
