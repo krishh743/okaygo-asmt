@@ -39,6 +39,7 @@ const getStudentByRegNameHelper = (data) => {
 
 const privateConversation = (data) => {
     return {
+        
         type: "GET_PRIVATE_CONVERSATION",
         payload: data
     }
